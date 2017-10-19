@@ -6,7 +6,7 @@ client.on("message",msg =>{
 args = msg.content.split(" ");
 if (msg.content==call+"help")
 {
-msg.channel.send("`~destroy-earth` destroys the earth. `~roulette [number] plays roulette, using said number.")
+msg.channel.send("`~destroy-earth` destroys the earth. `~roulette [number]` plays roulette, using said number.")
 }
 if (msg.content==call+"destroy-earth")
 {
