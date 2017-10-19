@@ -1,5 +1,5 @@
 var Discord = require("discord.js");
-var token = "MzY1NjIzNjI1NDI1ODc5MDUx.DLhNVw.f2enXsWGI5J5Y92frX7ug2QtJBg";
+var token = "";
 var call = "~"
 var client = new Discord.Client();
 client.on("message",msg =>{
