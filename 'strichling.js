@@ -17,13 +17,10 @@ if (args[0]==call+"roulette")
 switch(Math.round(Math.random()*args[1]))
 {
 case 1:
-msg.channel.send("test1");
+msg.channel.send(":dizzy_face::boom::gun:");
 break;
 case 2:
-msg.channel.send("test2");
-break;
-case 3:
-msg.channel.send("test3");
+msg.channel.send(":sweat_smile::gun:");
 break;
 }
 }
